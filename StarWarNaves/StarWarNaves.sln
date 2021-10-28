@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarNaves.DAO", "StarWar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarNaves.Aplicacao", "StarWarNaves.Aplicacao\StarWarNaves.Aplicacao.csproj", "{4CEB030D-8765-461F-AA48-1B3CB928183E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarNaves.ControleAcesso", "StarWarNaves.ControleAcesso\StarWarNaves.ControleAcesso.csproj", "{E8701FCA-5C86-40D3-A8E4-34039EF5711D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarNaves.Servicos", "StarWarNaves.Servicos\StarWarNaves.Servicos.csproj", "{EBAFB25A-B17C-4767-936C-1AB591599650}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4CEB030D-8765-461F-AA48-1B3CB928183E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEB030D-8765-461F-AA48-1B3CB928183E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEB030D-8765-461F-AA48-1B3CB928183E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8701FCA-5C86-40D3-A8E4-34039EF5711D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8701FCA-5C86-40D3-A8E4-34039EF5711D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8701FCA-5C86-40D3-A8E4-34039EF5711D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8701FCA-5C86-40D3-A8E4-34039EF5711D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAFB25A-B17C-4767-936C-1AB591599650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAFB25A-B17C-4767-936C-1AB591599650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAFB25A-B17C-4767-936C-1AB591599650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAFB25A-B17C-4767-936C-1AB591599650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\StarWarNaves.DAO\StarWarNaves.DAO.csproj" />
     <ProjectReference Include="..\StarWarNaves.Dominio\StarWarNaves.Dominio.csproj" />
   </ItemGroup>
 
