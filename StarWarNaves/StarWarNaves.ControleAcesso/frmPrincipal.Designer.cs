@@ -1,7 +1,7 @@
 ﻿
 namespace StarWarNaves.ControleAcesso
 {
-    partial class Principal
+    partial class frmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -53,16 +53,16 @@ namespace StarWarNaves.ControleAcesso
             this.btnControle.UseVisualStyleBackColor = true;
             this.btnControle.Click += new System.EventHandler(this.btnControle_Click);
             // 
-            // Principal
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(430, 137);
             this.Controls.Add(this.btnControle);
             this.Controls.Add(this.btnSicronizar);
-            this.Name = "Principal";
+            this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmPrincipal";
+            this.Text = "Controle de Naves";
             this.ResumeLayout(false);
 
         }

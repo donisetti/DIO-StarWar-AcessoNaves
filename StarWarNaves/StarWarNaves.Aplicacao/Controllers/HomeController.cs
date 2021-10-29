@@ -23,6 +23,16 @@ namespace StarWarNaves.Aplicacao.Controllers
             return View();
         }
 
+        public IActionResult Sincronizar()
+        {
+            return View();
+        }
+
+        public IActionResult Controle()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
